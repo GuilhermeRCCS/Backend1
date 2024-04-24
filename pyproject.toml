@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "task-management-sy"
+version = "0.1.0"
+description = "A task management system built using FastAPI, Django, and Click."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+sqlalchemy = "^1.4.31"
+sqlalchemy-utils = "^0.37.2"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.5"
+pydantic = "^1.9.0"
+python-dotenv = "^0.19.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+black = "^22.1.0"
+isort = "^5.10.1"
+mypy = "^0.930"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

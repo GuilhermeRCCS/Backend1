@@ -1,0 +1,47 @@
+# This file contains the required packages for the FastAPI project.
+# It was generated using Poetry, a Python dependency management tool.
+# To install the required packages, run the following command:
+# $ pip install -r requirements.txt
+
+# FastAPI framework
+fastapi==0.70.0
+
+# ASGI server
+uvicorn==0.15.0
+
+# Database and ORM
+sqlalchemy==1.4.31
+sqlalchemy-utils==0.37.2
+
+# JWT and password hashing
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# File uploads
+python-multipart==0.0.5
+
+# Data validation
+pydantic==1.9.0
+
+# Environment variables
+python-dotenv==0.19.2
+
+# Testing
+pytest==6.2.5
+pytest-cov==3.0.0
+
+# Code formatting
+black==22.1.0
+
+# Linting
+flake8==4.0.1
+isort==5.10.1
+
+# Type checking
+mypy==0.930
+
+# Django (for authentication)
+django==4.0.1
+
+# Click (for command-line interface)
+click==8.1.3
